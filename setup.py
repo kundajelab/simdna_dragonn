@@ -2,7 +2,7 @@ from setuptools import setup
 
 config = {
     'include_package_data': True,
-    'description': 'Simulations of DNA',
+    'description': 'Simulations of DNA for the Dragonn Package',
     'download_url': 'https://github.com/kundajelab/simdna_dragonn',
     'version': '0.1',
     'packages': ['simdna', 'simdna.resources'],
@@ -14,7 +14,7 @@ config = {
     'scripts': ['scripts/densityMotifSimulation.py',
                 'scripts/emptyBackground.py',
                 'scripts/motifGrammarSimulation.py'],
-    'name': 'simdna'
+    'name': 'simdna_dragonn'
 }
 
 if __name__== '__main__':
